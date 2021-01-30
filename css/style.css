@@ -1,0 +1,42 @@
+body{
+    display: grid ;
+    grid-template-columns: 1fr 5fr 1fr;
+    gap: 5px;
+    grid-template-rows: 1fr 5fr 2fr;
+
+}
+
+main{
+ display: grid;
+ grid-column: 1/-1;
+ background: rgb(133, 102, 102);
+
+}
+
+header{
+  background: rgba(204, 172, 113, 0.877);
+  grid-column: 1/-1;
+
+}
+
+footer{
+    grid-column: 1/-1;
+    background: rgb(141, 94, 88);
+}
+
+table{
+    border-collapse: collapse;
+    text-align:center;
+    width: 75%;
+  }
+  
+  th {
+    height: 70px;
+    padding: 15px;
+    border: 2px solid black;
+  }
+
+  td{
+    border: 2px solid black;
+    padding: 10px;
+  }
